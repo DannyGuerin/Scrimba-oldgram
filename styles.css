@@ -88,3 +88,8 @@ p {
 .post-desc {
   margin-top: 0.75rem;
 }
+
+.icon:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
+}
