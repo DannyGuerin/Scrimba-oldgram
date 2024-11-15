@@ -1,4 +1,90 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans 3', serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.bold-text {
+  font-size: 0.81rem;
+  font-weight: 700;
+}
+
+.main-wrap {
+  width: 23.43rem;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 4.18rem;
+  border-bottom: solid 1px #C6C6C6;
+}
+
+.logo {
+  width: 7.93rem;
+  margin-left: 1.06rem;
+
+}
+
+.user-image {
+  width: 2.12rem;
+  height: 2.12rem;
+  border-radius: 100px;
+  margin: 1rem;
+}
+
+.artist-avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 0.62rem;
+}
+
+.avatar-image {
+  width: 2.12rem;
+  height: 2.12rem;
+  border-radius: 100px;
+  margin-right: 0.44rem;
+}
+
+.post-image {
+  width: 100%;
+  margin-bottom: 1.3rem;
+}
+
+.interactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 6.52rem;
+}
+
+.icon {
+ height: 1.38rem;
+ margin-left: 0.62rem;
+}
+
+.text-wrap {
+  margin-left: 0.8rem;
+  margin-top: 0.74rem;
+  padding-bottom: 1rem;
+}
+
+.post-desc {
+  margin-top: 0.75rem;
 }
